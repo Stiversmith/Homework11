@@ -11,23 +11,14 @@ final class ViewController: UIViewController {
     
     
     @IBOutlet private weak var mainLabel: UILabel!
-    
     @IBOutlet private weak var volumeLevel: UILabel!
-    
     @IBOutlet private weak var volumeLevelSlider1: UIProgressView!
-    
     @IBOutlet private weak var volumeLevelSlider2: UISlider!
-    
     @IBOutlet private weak var volumeLevelField: UITextField!
-    
     @IBOutlet private weak var timePicker: UIDatePicker!
-    
     @IBOutlet private weak var timeLabel: UILabel!
-    
     @IBOutlet private weak var switchOn: UISwitch!
-    
     @IBOutlet private weak var clearButton: UIButton!
-    
     @IBOutlet private weak var setThisTime: UIButton!
     
     override func viewDidLoad() {
